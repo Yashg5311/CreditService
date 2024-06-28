@@ -21,6 +21,9 @@ A Cron job implemented with celery would do the billing of the users whose billi
 ## Set Up Process
    # Clone the Repository
    # Create a Virtual environment
+   # Install the Requirements
+     pip install -r requirements.txt
+     pip install redis
    # Enter the directory
       cd credit_card_service
    # Start the Server
