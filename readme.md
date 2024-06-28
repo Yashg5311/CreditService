@@ -16,3 +16,28 @@ This API facilitates users in repaying their EMIs. It ensures that users at leas
 # 5. Billing Process
 A Cron job implemented with celery would do the billing of the users whose billing date is the current date. It would also create a table of Billing details and due payments.
 
+
+
+## Set Up Process
+   # Clone the Repository
+   # Create a Virtual environment
+   # Enter the directory
+      cd credit_card_service
+   # Start the Server
+      python manage.py runserver
+   # Start Celery Worker
+       python -m celery -A credit_card_service worker -l info
+   # Start Celery Beat
+      python -m celery -A credit_card_service beat -l info
+
+   # Project Access
+      http://localhost:8000/
+
+
+  ##  Screenshots
+
+      ![Screenshot (789)](https://github.com/Yashg5311/CreditService/assets/91370994/3c6fc134-1326-4777-84d7-b6bc936b7616)
+![Screenshot (790)](https://github.com/Yashg5311/CreditService/assets/91370994/4da33329-2997-4756-89b8-f40e7e60a645)
+![Screenshot (791)](https://github.com/Yashg5311/CreditService/assets/91370994/5929a319-43eb-4a87-b450-179ae5803893)
+
+![Screenshot (792)](https://github.com/Yashg5311/CreditService/assets/91370994/8bc97119-f229-49cd-a7a2-fab8cf5e59d3)
