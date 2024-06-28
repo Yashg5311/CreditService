@@ -36,7 +36,8 @@ A Cron job implemented with celery would do the billing of the users whose billi
 
   ##  Screenshots
 
-      ![Screenshot (789)](https://github.com/Yashg5311/CreditService/assets/91370994/3c6fc134-1326-4777-84d7-b6bc936b7616)
+![Screenshot (793)](https://github.com/Yashg5311/CreditService/assets/91370994/0af8d1f6-0089-4c6a-9447-39319c06a7c1)
+
 ![Screenshot (790)](https://github.com/Yashg5311/CreditService/assets/91370994/4da33329-2997-4756-89b8-f40e7e60a645)
 ![Screenshot (791)](https://github.com/Yashg5311/CreditService/assets/91370994/5929a319-43eb-4a87-b450-179ae5803893)
 
